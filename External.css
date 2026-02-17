@@ -1,55 +1,50 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Ecommerce Website</title>
-        <style>
-            body {
-              background-color: lightblue;
-            }
-            h1 {
-                color: navy;
-                margin-left: 20px;
-            }
-            ul {
-              list-style-type: none;
-              margin: 0;
-              padding: 0;
-              overflow: hidden;
-              background-color: #333333;
-            }
-            ul li {
-              float: left;
-            }
-            ul li a {
-              display: block;
-              color: white;
-              text-align: center;
-              padding: 14px 16px;
-              text-decoration: none;
-            }
-            ul li a:hover {
-              background-color: #111111;
-            }
-            a:link, a:visited {
-              background-color: white;
-              color: black;
-              border: 2px solid green;
-              padding: 10px 20px;
-              text-align: center;
-              text-decoration: none;
-              display: inline-block;
-            }
-            a:hover, a:active {
-              background-color: green;
-              color: white;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Index/Home</h1>
-        <p></p>
-        <ul>
-            <li><a href="login.html">Login</a></li>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
             <li><a href="register.html">Register</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
